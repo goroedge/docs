@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: Галлерея
 menu:
   main:
     weight: 2

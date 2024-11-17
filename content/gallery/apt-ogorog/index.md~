@@ -1,0 +1,12 @@
+---
+title: "Apt Ogorog"
+date: 2024-11-17T10:48:26+03:00
+draft: true
+description: 
+resources:
+  - src: foo.jpg
+    title: Foo
+    params:
+      author:
+      source:
+---

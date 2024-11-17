@@ -1,4 +1,4 @@
-description: The starter theme template of HB (Hugo Bootstrap) Framework.
+description: Личный блог Игоря Ра
 
 hb:
   # override SASS variables, please replace the dash with underline, e.g. `list-group-color` should be `list_group_color`.
@@ -11,22 +11,21 @@ hb:
   full_width: false # when true, the layout takes full width globally.
 
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
-    logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
+    brand: ДокРа # the brand name, leave it empty to use site's title.
+    logo_bg: '#112cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
+      github: goroedge
       # twitter: razonyang
       rss: true
-      mastodon: https://techhub.social/@hbstack
+      mastodon: https://techhub.social/@goroedge
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
-      twitter: razonyang
+      github: goroedge
       rss: true
-      mastodon: https://techhub.social/@hbstack
+      mastodon: https://techhub.social/@goroedge
   terms:
     # the paginate for categories, tags, series list pages.
     paginate: 12
@@ -34,12 +33,12 @@ hb:
     sidebar:
       profile:
         # title: Profile title other than site title.
-        # description: Profile description other than site description.
-        company: COMPANY
-        location: Earth
+        description: Делаю документацию, которую нравится читать.
+        company: Стратегия Ра
+        location: Вся Земля
         socials:
-          github: hbstack
-          mastodon: https://techhub.social/@hbstack
+          github: goroedge
+          mastodon: https://techhub.social/@goroedge
           rss: true
       posts:
         recent_count: 5 # the number of recent posts.
@@ -48,7 +47,7 @@ hb:
         count: true # whether to show the number of posts associated to the item.
         limit: 10 # the maximum number of the item.
     paginate: 12 # paginate.
-    post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
+    post_thumbnail_placeholder: Хорошая документация # HB THEME # the text of thumbnail placeholder, default to site title.
     # post_thumbnail: false # whether to show the thumbnails.
     # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
@@ -57,7 +56,7 @@ hb:
       main_sections: # leave it empty to include all regular pages.
         - docs
         - blog
-        - tutorials
+        - gallery
     giscus:
       repo: hbstack/theme
       repo_id: R_kgDOJP3qtA
@@ -73,8 +72,8 @@ hb:
       repo: hbstack/theme
       branch: main
       # subpath: exampleSite
-  # gallery:
-  #   thumbnail_size: "x640"
+   #gallery:
+   #  thumbnail_size: "720x640"
 
 seo:
   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
@@ -86,7 +85,7 @@ pwa:
   manifest:
     background_color: '#712cf9'
     theme_color: '#712cf9'
-    short_name: 'HB Theme'
+    short_name: 'Doc Theme'
 
 # see https://hugomods.com/search/configurations/.
 search:
@@ -122,3 +121,8 @@ hugopress:
       hooks:
         hb-blog-sidebar:
           weight: 2
+params:
+  bootstrap:
+    article_cards:
+      image_height: 240
+      limit: 12

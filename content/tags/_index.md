@@ -1,5 +1,5 @@
 ---
-title: Tags
+title: Тэги
 menu:
   main:
     parent: blog
@@ -8,5 +8,5 @@ menu:
         vendor: bs
         name: tags
         color: green
-      description: All of tags.
+      description: Все теги.
 ---

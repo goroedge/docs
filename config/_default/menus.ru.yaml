@@ -1,0 +1,52 @@
+main:
+  - name: Поддержка
+    identifier: support
+    weight: 100
+    url: https://github.com/goroedge
+    params:
+      header: Поддержка документации
+      icon:
+        vendor: font-awesome-solid
+        name: headset
+
+  - name: Документация
+    parent: support
+    url: https://rabrain.ru
+    weight: 1
+    params:
+      icon:
+        vendor: bs
+        name: book
+        className: text-primary
+      description: Документация.
+
+  - name: GitHub
+    parent: support
+    url: https://github.com/goroedge
+    weight: 11
+    params:
+      icon:
+        vendor: fab
+        name: github
+      description: The code repository.
+
+  - name: Обсуждение
+    parent: support
+    url: https://github.com/goroedge/discussions
+    weight: 12
+    params:
+      icon:
+        vendor: font-awesome-regular
+        name: comments
+        color: green
+      description: Задайте ваш вопрос
+
+  - name: Mastodon
+    parent: support
+    url: https://techhub.social/@goroedge
+    weight: 16
+    params:
+      icon:
+        vendor: simple
+        name: mastodon
+      description: Подписывайтесь Mastodon.

@@ -1,7 +1,7 @@
-name = "HB Starter Theme Template"
+name = "Работает на Hugo"
 license = "MIT"
 licenselink = "https://github.com/hbstack/theme/blob/main/LICENSE"
-description = "The starter theme template of HB (Hugo Bootstrap) Framework"
+description = "Работает на Hugo"
 homepage = "https://github.com/hbstack/theme"
 demosite = "https://theme.hbstack.dev/"
 tags = [
@@ -19,5 +19,5 @@ tags = [
 ]
 features = ["search", "flexible", "modular"]
 [author]
-name = "HB Framework Authors"
+name = "HB1 Framework Authors"
 homepage = "https://hbstack.dev/"

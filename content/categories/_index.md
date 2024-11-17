@@ -1,5 +1,5 @@
 ---
-title: Categories
+title: Категории
 menu:
   main:
     parent: blog
@@ -8,5 +8,5 @@ menu:
         vendor: bs
         name: folder
         color: orange
-      description: All of categories.
+      description: Все категории.
 ---

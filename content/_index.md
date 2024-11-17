@@ -1,5 +1,5 @@
 ---
-title: HB Theme Template
+title: Документация Игоря Ра
 # menu:
 #   main:
 #     name: Home
