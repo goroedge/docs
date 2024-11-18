@@ -1,0 +1,3 @@
+#!/bin/zsh
+cd ~/data/sites/hb3
+hugo && rsync -avz --delete ~/data/sites/hb3/public/ krayev_rabrain@krayev.beget.tech:~/public_html/

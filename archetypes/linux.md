@@ -4,6 +4,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 description: 
+path: docs/linux/
 noindex: false
 # comments: false
 nav_weight: 1000
@@ -12,7 +13,7 @@ nav_weight: 1000
 #   name: toggles
 #   color: '#e24d0e'
 series:
-#  - Docs
+  - linux
 categories:
   - docs
 tags:

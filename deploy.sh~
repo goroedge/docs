@@ -1,0 +1,2 @@
+#!/bin/zsh
+hugo && rsync-synchronize ~/data/sites/hb3/public/ krayev_rabrain@krayev.beget.tech:~/public_html/
