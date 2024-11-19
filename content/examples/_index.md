@@ -1,5 +1,5 @@
 ---
-title: Партфолио
+title: Портфолио
 menu:
   main:
     weight: 3

@@ -12,3 +12,5 @@ socials:
 
 Значит вы попали по адресу!
 
+{{< bs/btn-link url="mailto:sub@rabrain.ru" style="warning" text="Написать письмо..." outline=true />}}
+

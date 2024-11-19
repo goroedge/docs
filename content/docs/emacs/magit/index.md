@@ -14,6 +14,8 @@ series: emacs
 categories: docs
 tags: [magit, emacs]
 images: [logo2.png]
+authors:
+  - ra
 ---
 
 Настройка Magit в Emacs и управление репозиторием.
@@ -58,7 +60,7 @@ M-x magit-version RET
 
 # Команды Magit
 `C-x g` для отображения информации о текущем репозитории Git  
-![Left](/images/magit.png?width=400px#float-start)
+![Left](magit.png?width=400px#float-start)
 `s` / `u` добавить файл в индекс или убрать из индекса.  
 `C-SPC` --- поставить метку на файле `C-n` `C-p` отметить список файлов из отменить,потом `s` или `u` для включения или исключения.  
 `c` <mark>откроет</mark> меню для COMMIT и другие варианты, нажимаю еще раз `c`, ввожу комментарий commit  и нажимаю `C-c` для выполнения commit. 
