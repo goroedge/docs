@@ -10,5 +10,5 @@ resources:
       author:
       source:
 images:
-  - photo_5_2024-11-17_11-16-31.jpg
+  - 5.jpg
 ---

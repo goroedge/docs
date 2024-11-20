@@ -1,0 +1,35 @@
+---
+title: "Rename"
+date: 2024-11-20T15:59:05+03:00
+draft: true
+description: 
+noindex: false
+featured: false
+pinned: false
+# comments: false
+series:
+#  - 
+categories:
+  - blog
+tags:
+#  - 
+images:
+#  - 
+weight: 99
+authors:
+  - ra
+# menu:
+#   main:
+#     weight: 100
+#     params:
+#       icon:
+#         vendor: bs
+#         name: book
+#         color: '#e24d0e'
+---
+
+Summary.
+
+<!--more-->
+
+Content.
