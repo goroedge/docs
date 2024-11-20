@@ -1,0 +1,38 @@
+---
+title: "Sed h/H/g/G"
+date: 2024-11-19T14:19:25+03:00
+draft: false
+description: 
+noindex: false
+featured: false
+pinned: false
+# comments: false
+series:
+  - regex
+categories:
+  - blog
+tags:
+  - sed
+  - find
+  - posix
+images:
+  - reg1.png
+# menu:
+#   main:
+#     weight: 100
+#     params:
+#       icon:
+#         vendor: bs
+#         name: book
+#         color: '#e24d0e'
+---
+
+Примеры использования поисковых запросов POSIX
+
+<!--more-->
+{{< bs/alert info >}}
+Потоковый редактор SED. Обзор опции -n
+{{< /bs/alert >}}
+
+
+## -n \-\-quiet \-\-silent

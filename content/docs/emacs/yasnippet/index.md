@@ -15,6 +15,9 @@ tags:
   - yasnippet
 images:
   - logo.png
+weight: 199
+authors:
+  - ra
 # menu:
 #   main:
 #     weight: 100

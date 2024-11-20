@@ -8,6 +8,8 @@ tags = ['markdown','text']
 summary = 'Основной синтаксис Markdown для HUGO'
 description = ''
 images = ['markdown.jpg']
+weight = 199
+authors = 'ra'
 +++
 
 ## Заголовки

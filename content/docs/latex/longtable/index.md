@@ -9,6 +9,8 @@ tags = ['documentation','table']
 summary = 'Применение longtable с тонкими настройками в Latex'
 description = ''
 images = ['longtable.png']
+weight = 199
+authors = 'ra'
 +++
 ## Пакет Longtable
 

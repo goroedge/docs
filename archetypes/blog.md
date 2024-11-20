@@ -10,11 +10,14 @@ pinned: false
 series:
 #  - 
 categories:
-#  - 
+  - blog
 tags:
 #  - 
 images:
 #  - 
+weight: 99
+authors:
+  - ra
 # menu:
 #   main:
 #     weight: 100

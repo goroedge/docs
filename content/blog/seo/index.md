@@ -20,6 +20,7 @@ images:
   - seo-logo.png
 authors:
   - ra
+weight: 5
 # menu:
 #   main:
 #     weight: 100

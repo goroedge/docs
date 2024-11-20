@@ -18,6 +18,9 @@ tags:
   - иллюзия
 images:
   - who-breake.png
+weight: 299
+authors:
+  - ra
 # menu:
 #   main:
 #     weight: 100

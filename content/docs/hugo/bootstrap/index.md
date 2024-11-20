@@ -16,6 +16,9 @@ tags:
   - framework
 images:
   - bs.jpg
+weight: 199
+authors:
+  - ra
 # menu:
 #   main:
 #     weight: 100

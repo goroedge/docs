@@ -1,28 +1,20 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-# linkTitle:
-date: {{ .Date }}
+title: "Magia"
+date: 2024-11-19T20:56:27+03:00
 draft: true
 description: 
-path: docs/linux/
 noindex: false
+featured: false
+pinned: false
 # comments: false
-nav_weight: 1000
-# nav_icon:
-#   vendor: bootstrap
-#   name: toggles
-#   color: '#e24d0e'
 series:
-  - linux
+  - airoo
 categories:
-  - docs
+  - pоrtfolio
 tags:
-#  - 
+  - documentation
 images:
 #  - 
-weight: 99
-authors:
-  - ra
 # menu:
 #   main:
 #     weight: 100

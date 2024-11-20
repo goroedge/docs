@@ -17,6 +17,10 @@ tags:
   - posix
 images:
   - reg1.png
+weight: 98
+authors:
+  - ra
+
 # menu:
 #   main:
 #     weight: 100
@@ -139,3 +143,5 @@ text
 text5
 4
 ```
+
+Обзор документации по SED в разделе **Справочник**. [Подробнее..]({{% relref "/docs/linux/sed" %}})

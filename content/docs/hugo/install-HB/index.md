@@ -13,6 +13,9 @@ series: HUGO
 categories: [docs]
 tags: [install, blog, soft, framework]
 images: [131736.png]
+weight: 199
+authors:
+  - ra
 ---
 
 Установка и развертывание FrameWork HB HUGO с нуля.

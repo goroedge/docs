@@ -8,7 +8,8 @@ tags = ['color','pdf','documentation']
 summary = 'Обзор документации пакетов Xcolor и colortbl'
 description = ''
 images = ['color.png']
-
+weight = 199
+authors = 'ra'
 +++
 
 ## Установка пакета xcolor

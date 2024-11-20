@@ -13,6 +13,9 @@ series: latex
 categories: [docs]
 tags: [pdf]
 images: [adobe.png]
+weight: 199
+authors:
+  - ra
 ---
 
 Вдруг понадобилось вставить титульную страницу, сделанную на XARA. Пришлось подключить пакет `pdfpages`

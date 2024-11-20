@@ -8,6 +8,8 @@ tags = 'documentation'
 summary = 'Настройка темы HUGO relearn'
 description = 'Краткое описание настройки темы HUGO'
 images = ['hero.png']
+weight = 199
+authors = 'ra'
 +++
 
 ## Установка темы

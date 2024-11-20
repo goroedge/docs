@@ -13,6 +13,9 @@ series: Latex
 categories: [docs]
 tags: [TOC, pagestyle, title]
 images: [131227.png]
+weight: 199
+authors:
+  - ra
 ---
 
 Оформление стилей страниц, заголовков и оглавления. Продвинутый пакет. Оставляю его для настроек различных стилей документов.

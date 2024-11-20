@@ -8,7 +8,8 @@ tags = ['documentation', 'soft']
 summary = 'Настройка иконок в HUGO'
 description = ''
 images = ['151358.png']
-
+weight = 199
+authors = 'ra'
 +++
 ## Используем библиотеку AWESOME
 
