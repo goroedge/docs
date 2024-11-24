@@ -60,7 +60,7 @@ ssh-keygen -t ed25519 -C "my@email.com"
 ```shell
 Host github.com
     HostName github.com
-    User goroedge
+    User git
     IdentityFile ~/.ssh/id_ed25519
     IdentitiesOnly yes
 ```
@@ -107,7 +107,7 @@ ssh-add ~/.ssh/id_ed25519
 При первом входе может спросить пароль от ключа:
 ```shell
 > The authenticity of host 'github.com (IP ADDRESS)' can't be established.
-> ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+> ED25519 key fingerprint is SHA256:+DiY3wvvV6TuDJhbpZosF/zLDA0cPMSvHdkr4UvCOqU.
 > Are you sure you want to continue connecting (yes/no)?
 ```
 5. Добавление или изменение парольной фразы
@@ -116,3 +116,15 @@ ssh-add ~/.ssh/id_ed25519
 ```shell
 $ ssh-keygen -p -f ~/.ssh/id_ed25519
 ```
+
+## Инициализация и настройка локального репозиория
+```shell
+echo "# docs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:goroedge/docs.git
+git push -u origin main
+```
+
