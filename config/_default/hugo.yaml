@@ -68,3 +68,6 @@ security:
       - CI$
       - PWD
 
+services:
+  googleAnalytics:
+    id: GTM-KWB2FKZW

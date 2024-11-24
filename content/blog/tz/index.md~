@@ -1,6 +1,6 @@
 ---
-title: "Magia"
-date: 2024-11-19T20:56:27+03:00
+title: "Tz"
+date: 2024-11-23T08:38:12+03:00
 draft: true
 description: 
 noindex: false
@@ -8,13 +8,16 @@ featured: false
 pinned: false
 # comments: false
 series:
-  - airoo
+#  - 
 categories:
-  - pоrtfolio
+  - blog
 tags:
-  - documentation
+#  - 
 images:
 #  - 
+weight: 99
+authors:
+  - ra
 # menu:
 #   main:
 #     weight: 100

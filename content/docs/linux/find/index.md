@@ -4,7 +4,7 @@ title: "Find"
 date: 2024-11-18T16:04:18+03:00
 draft: false
 description: "Удивительная утилита, которая может найти все на диске и еще выполнить над тем, что нашла, все что угодно!"
-featured: true
+featured: false
 noindex: false
 # comments: false
 nav_weight: 1000

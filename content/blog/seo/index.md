@@ -12,9 +12,11 @@ series:
 categories:
   - docs
 tags:
-  - документация
   - documentation
   - seo
+  - Создание документации
+  - Инструкции
+  - Документация
   
 images:
   - seo-logo.png
