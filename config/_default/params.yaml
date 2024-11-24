@@ -58,14 +58,16 @@ hb:
         - blog
         - examples
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      repo: goroedge/docs
+      repo_id: R_kgDONT-kzA
+      category_id: DIC_kwDONT-kzM4CkjkW
+
   docs:
     giscus:
-      repo: hbstack/theme
-      repo_id: R_kgDOJP3qtA
-      category_id: DIC_kwDOJP3qtM4CVavM
+      repo: goroedge/docs
+      repo_id: R_kgDONT-kzA
+      category_id: DIC_kwDONT-kzM4CkjkW
+
   #content_panel:
     #repo:
       #service: github # github or gitlab.
