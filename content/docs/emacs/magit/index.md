@@ -23,12 +23,12 @@ authors:
 <!--more-->
 
 
-# Введение
+## Введение
 Magit - это интерфейс к системе управления версиями Git, реализованный как пакет Emacs.
 
 Магит обертывает и во многих случаях улучшает по крайней мере следующий Git команды: `add`, `am`, `bisect`, `blame`, `branch`, `checkout`, `cherry`, `cherry-pick`, `clean`, `clone`, `commit`, `config`, `describe`, `diff`, `fetch`, `format-patch`, `init`, `log`, `merge`, `merge-tree`, `mv`, `notes`, `pull`, `rebase`, `reflog`, `remote`, `request-pull`, `reset`, `revert`, `rm`, `show`, `stash`, `submodule`, `subtree`, `tag` и `worktree`.
 
-# Установка {class = ".skype-icon"}
+## Установка {class = ".skype-icon"}
 Magit может быть установлен с помощью менеджера пакетов Emacs’ или вручную из его репозиторий разработки.
 
 1. В файл конфигурации init.el добавить следующие две строки для доступа к репозиториям.
@@ -58,12 +58,13 @@ M-x magit-version RET
 Сообщение: `Magit 20241010.1930 [>= 20241010.1930], Transient 20241009.1745, Git 2.46.1, Emacs 29.4, gnu/linux`
 подтвердит установку.
 
-# Команды Magit
+## Команды Magit
 `C-x g` для отображения информации о текущем репозитории Git  
 ![Left](magit.png?width=400px#float-start)
 `s` / `u` добавить файл в индекс или убрать из индекса.  
 `C-SPC` --- поставить метку на файле `C-n` `C-p` отметить список файлов из отменить,потом `s` или `u` для включения или исключения.  
 `c` <mark>откроет</mark> меню для COMMIT и другие варианты, нажимаю еще раз `c`, ввожу комментарий commit  и нажимаю `C-c` для выполнения commit. 
+
 
 Key             Binding
 
