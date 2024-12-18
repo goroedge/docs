@@ -2,6 +2,7 @@ baseURL: https://rabrain.ru/
 title: Документация Ра
 # Copyright, the {year} is the placeholder of this year.
 copyright: "Правообладатель © 2022-{year} Игорь Ра. Все права защищены."
+
 defaultContentLanguage: ru
 disableLanguages: en
 defaultContentLanguageInSubdir: true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
@@ -70,4 +71,4 @@ security:
 
 services:
   googleAnalytics:
-    id: GTM-KWB2FKZW
+    id: G-WZ3VE7C70R

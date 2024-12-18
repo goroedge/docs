@@ -15,17 +15,21 @@ hb:
     logo_bg: '#112cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: goroedge
+      #github: goroedge
       # twitter: razonyang
       rss: true
+      email: mailto:sub@rabrain.ru
       mastodon: https://techhub.social/@goroedge
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
+    powered_by: false
+    site_title: Документация, которую хочется читать
     socials:
       _color: true # when false, remove the color of social icons.
-      github: goroedge
+      #github: goroedge
       rss: true
       mastodon: https://techhub.social/@goroedge
+      email: mailto:sub@rabrain.ru
   terms:
     # the paginate for categories, tags, series list pages.
     paginate: 12
@@ -37,9 +41,11 @@ hb:
         company: Стратегия Ра
         location: Вся Земля
         socials:
-          github: goroedge
+          #github: goroedge
+          telegram: ra_igor
           mastodon: https://techhub.social/@goroedge
           rss: true
+          email: mailto:sub@rabrain.ru
       posts:
         recent_count: 5 # the number of recent posts.
         featured_count: 5 # the number of featured posts.

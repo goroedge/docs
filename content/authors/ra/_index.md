@@ -4,8 +4,9 @@ description: Создаю документацию для различных с�
 images:
   - profile.png
 socials:
-  github: goroedge
-  gmail: mailto:sub@rabrain.ru
+#  github: goroedge
+  email: mailto:sub@rabrain.ru
+  telegram: ra_igor
 ---
 Добрый день. 
 Вам нужна хорошая документация?

@@ -147,7 +147,9 @@ $0
 2. Создать директорию с названием группы
 3. Поместить в директорию пустой файл с именем ` .yas-make-groups`
 
-(defalias 'rsync
-   (kmacro "M-! r s y n c SPC - a v z h H l SPC ~ \\ d a t a \\ s i t e s \\ h b \\ p u b l i c SPC k r a y e v _ r a b r a i n @ k r a y e v . b e g e t . t e c h : ~ / p u b l i c _ h t m l / RET"))
+#### Добавить в сниппет дату
 
-\
+Просто вставляем функцию, как и любую функцию LISP
+```org
+`(format-time-string "%Y-%m-%d")`
+```
